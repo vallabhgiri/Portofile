@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <style>
+   
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <a href="#"><img src="vallabhphoto.jpg" alt=""></a>
+            </div>
+            <ul class="navbar-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="navbar-toggle">&#9776;</div>
+        </div>
+    </div>
+    <!-- Your page content goes here -->
+    <script>
+        document.querySelector(".navbar-toggle").addEventListener("click", function () {
+            var navbar = document.querySelector(".navbar");
+            navbar.classList.toggle("active");
+        });
+    </script>
+
+<section class="home" id="home">
+  <div class="home-content">
+  
+      <h3>Hello,It's Me</h3>
+      <h1>Giri Vallabh</h1>
+      <h3>And I'm a<span class="text"> Java Developer</span></h3>
+      <p>Student of the College of Coumputer Science And Information Technology(cocsit).<br>
+          And i want to become java full stack developer
+      </p>
+      <img src="IMG_20220605_171011_020.jpg" alt=""/>
+     
+     <div class="home-sci">
+      <a href="https://www.facebook.com/vallabh.giri.1?mibextid=ZbWKwL"><i class="bi bi-facebook"></i></a>
+      <a href="https://instagram.com/vallabhgiri_1356?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="><i class="bi bi-instagram"></i></a>
+      <a href="https://wa.me/+919356484863"><i class="bi bi-whatsapp"></i></a>
+      <a href="https://www.linkedin.com/in/vallabh-giri-96a6a1235"><i class="bi bi-linkedin"></i></a>
+     </div>
+     <a href="Giri Vallabh NextLevel Resume (1).pdf" class="btn-box">Download Cv</a>
+  </div>
+  
+</section>
+
+
+
+
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="IMG_20220605_171011_020.jpg" alt="" srcset="">
+    </div>
+    <div class="about-text">
+        <h2>About <span class="text">Me</span></h2>
+        <h4> Want to become Java FullStack Developer!</h4>
+        <p>Hello My name is <span style="color: aqua;"> Giri Vallabh Gangadhar </span>,Currently enrolled in the third year of Bachelor of
+            Computer Science (BCS) program, demonstrating proficiency in core Java, C, and C++. Additionally,
+            possess advanced knowledge of Java and have acquired skills in frontend technologies including
+            HTML, CSS, and Bootstrap.
+            
+          
+        </p>
+        <a href=""class="btn-box">More About </a>
+    </div>
+        
+    </div>
+</section>
+
+
+
+
+
+<section class="services1" id="services">
+    <div class="container">
+    <div class="sub-title">My <span class="text">Services</span></div>
+    <div class="services-list">
+        <div>
+        <i class=""></i>
+        <h2>Html/Css</h2>
+        <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             Odio fugit aut, quia cum a voluptatibus expedita omnis. 
+             Magnam, rem dolorum.</h6>
+             <a href="https://www.w3schools.com/" class="read">learn more</a>
+             </div>
+
+             <div>
+                <i class=""></i>
+                <h2>Core java</h2>
+                <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                     Odio fugit aut, quia cum a voluptatibus expedita omnis. 
+                     Magnam, rem dolorum.</h6>
+                     <a href="https://www.w3schools.com/" class="read">learn more</a>
+                     </div>
+
+                     <div>
+                        <i class=""></i>
+                        <h2>Advance Java</h2>
+                        <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                             Odio fugit aut, quia cum a voluptatibus expedita omnis. 
+                             Magnam, rem dolorum.</h6>
+                             <a href="https://www.w3schools.com/" class="read">learn more</a>
+                             </div>
+
+
+                             <div>
+                                <i class=""></i>
+                                <h2>Spring Boot</h2>
+                                <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                     Odio fugit aut, quia cum a voluptatibus expedita omnis. 
+                                     Magnam, rem dolorum.</h6>
+                                     <a href="https://www.w3schools.com/" class="read">learn more</a>
+                                     </div>
+                                     
+                                     <div>
+                                        <i class=""></i>
+                                        <h2>Bootstrap</h2>
+                                        <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                             Odio fugit aut, quia cum a voluptatibus expedita omnis. 
+                                             Magnam, rem dolorum.</h6>
+                                             <a href="https://www.w3schools.com/" class="read">learn more</a>
+                                             </div>
+                                             
+    </div>
+    </div>
+</section>
+
+
+
+<section class="skills" id="skills">
+    <div class="container">
+    <h2>My <span class="text"> Skills</span></h2>
+    <div class="technical">
+    <ul>Technical Skills</ul>
+    <li>Html<span>(70%)</span></li> 
+    <li>CSS<span>(70%)</span></li>
+    <li>Boostrap<span>(40%)</span></li>
+    <li>Java<span>(95%)</span></li>
+    <li>J2EE <span>(70%)</span></li>
+    <li>SprinBoot <span>(70%)</span></li>
+    <li>C<span>(60%)</span></li>
+    <li>C++<span>(60%)</span></li>
+    <li>C#<span>(50%)</span></li>
+    <li>Python<span>(50%)</span></li>
+    <li>SQl<span>(70%)</span></li>
+    <li>MySql<span>(70%)</span></li>
+</div>
+<div class="technical">
+    <ul>Professional Skills</ul>
+    <li>Problem-Solving<span>(95%)</span></li> 
+    <li>Teamwork<span>(95%)</span></li>
+    <li>Error Handling<span>(95%)</span></li>
+    <li>Quick Learning<span>(95%)</span></li>
+    <li>Time Manage <span>(90%)</span></li>
+    <li>flexibility <span>(95%)</span></li>
+    <li>Creativity<span>(80%)</span></li>
+</div>    
+</div>
+</section>
+<section class="skills">
+    <div class="container">
+        <h2>My <span class="text">Projects</span></h2>
+    </div>
+        <div class="pro" id="project">
+           <b style="font-size: 30px;"> 1.NoteTaker Web App<b><br>
+            <h6>Used Tools</h6>
+            <pre>Html</pre>
+            <pre>CSS</pre>
+            <pre>Bootstrap</pre>
+            <pre>JSP</pre>
+            <pre>Servlet</pre>
+            <pre>Hibernate</pre>
+            <pre>SQL</pre>
+
+            <pre style="border: 3px solid red;color:black;font-weight:600;background-color: gold;">About Project</pre>
+            <h6 style="font-style: italic;font-size: 20px;">This is the NoteTaker web Application in this Application
+                we can simply add your daily notes,and this notes will save in sql database and you can also fetch 
+                your all notes by clicking AllNotes Button.you can also delete your notes from database or you can update
+                you notes.
+            </h6>
+            </div>
+            <br>
+
+            <div class="pro" >
+                <b style="font-size: 30px;"> 2.Flipcark Clone<b>
+                 <h6>Used Tools</h6>
+                 <pre>Html</pre>
+                 <pre>CSS</pre>
+                 <pre>Bootstrap</pre>
+                 <pre>Javascript</pre>
+                
+     
+                 <pre style="border: 3px solid red;color:black;font-weight:600;background-color: gold;">About Project</pre>
+                 <h6 style="font-style: italic;font-size: 20px;">In this project i simply developed flipkart clone
+                 </h6>
+                 </div>
+           
+</section>
+
+
+<div class="contact" id="contact">
+   
+
+    <h1 style="color:black;font-size: 30px; display: flex;justify-content: center;background-color: aqua;">Contact Us</h1>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required style="border: 2px solid red">
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required style="border: 2px solid red">
+        <br><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required style="border: 2px solid red"></textarea>
+        <br><br>
+
+        <button type="submit" style="background-color: yellow;border-radius: 20px;width: 100%;">Submit</button>
+    </form>
+
+
+<footer>
+      <div class="home-sci">
+                <a href="https://www.facebook.com/vallabh.giri.1?mibextid=ZbWKwL"><i class="bi bi-facebook"></i></a>
+                <a href="https://instagram.com/vallabhgiri_1356?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="><i class="bi bi-instagram"></i></a>
+                <a href="https://wa.me/+919356484863"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/vallabh-giri-96a6a1235"><i class="bi bi-linkedin"></i></a>
+               </div>
+    
+    
+        <p style="font-size: 20px;">&copy; 2023 Vallabh. All rights reserved.</p>
+   
+</footer>
+
+</div>
+</div>
+
+
+</body>
+</html>
