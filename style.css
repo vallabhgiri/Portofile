@@ -262,6 +262,9 @@ color: #0ef;
     transition: background 0.5s,transform 0.5s;
     box-shadow: 1px 1px 20px #012290f7,1px 1px 40px #0053b8f7;
 }
+.services-list h6{
+     font-style: italic;
+}
 .services-list div i{
     font-size: 50px;
     margin-top: 30px;
